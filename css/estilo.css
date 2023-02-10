@@ -7,6 +7,20 @@
 }
 body{
   background-color: #293241;
+ 
+}
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #29324131;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 1px solid #fff;  /* creates padding around scroll thumb */
 }
 header{
     background-color: #293241;
