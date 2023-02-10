@@ -170,6 +170,39 @@ a{
    line-height: 2
 }
 
+
+.rodape{
+  text-align: center;
+  min-height: 13vh;
+
+  padding: 5% 34px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.rodape img {
+  width: 8%;
+  margin: 0 0 1px 0;
+}
+
+.rodape ul{
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  gap: 60px;
+  padding: 2% 0
+  top: 13vh;
+  justify-content: center;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rodape ul li a{
+  transition: 0.5s ease;
+}
+.rodape ul li a:hover{
+  color: #E8880B;
+}
+
 /* Responsividade */
 
 
@@ -246,5 +279,9 @@ a{
   .listaProblemas p{
     margin: 0 0 6px 2px 
     
+  }
+
+  .rodape img {
+    width: 32%;
   }
 }
