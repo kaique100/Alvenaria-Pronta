@@ -174,8 +174,7 @@ a{
 .rodape{
   text-align: center;
   min-height: 13vh;
-
-  padding: 5% 34px;
+  padding: 0% 34px 4px 34px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -281,6 +280,9 @@ a{
     
   }
 
+  .rodape{
+    padding: 2% 34px 4px 34px;
+  }
   .rodape img {
     width: 32%;
   }
