@@ -2,7 +2,7 @@ window.onscroll = function(){
 	
 	let top = window.pageYOffset || document.documentElement.scrollTop;
 	
-	if(top > 100){
+	if(top > 10){
 		console.log(top);
 		document.getElementById("navbar").classList.add("menu-fixo");
 
