@@ -7,12 +7,11 @@
     max-width: 100vw;
 }
 
-.menu-fixo{
-  background-color: #0000006e;
-}
+
 body{
   /* background-color: #293241; */
- 
+  /* filter: blur(10px); */
+   
 }
 body::-webkit-scrollbar {
   width: 12px;               /* width of the entire scrollbar */
@@ -43,12 +42,20 @@ a{
     color:#fff;
     text-decoration: none;
 }
+
+.menu-fixo{
+  background-color: #0000006e;
+  animation: fadeIn 10s ease-in-out;
+  animation: fadeIn 10s ease-in;
+  transition: 0.3s;
+}
 .navbar{
      text-align: center;
       min-height: 13vh;
     display: flex;
     align-items: center;
- 
+    
+    
     justify-content: space-between;
     padding: 0 34px; 
   z-index: 3;
@@ -305,8 +312,10 @@ box-shadow: 0 0 25px #e8880b;
 
     .navbar{
         min-height: 13vh;
-    }
-
+        /* filter: blur(10px); */
+        
+      }
+      
     .nav-menu{
         position: fixed;
         left: -100%;
@@ -318,11 +327,19 @@ box-shadow: 0 0 25px #e8880b;
         flex-direction: column;
         width: 100%;
         transition: 0.3s;
-      height: 92vh;      
-      z-index: 3;
+        height: 92vh;      
+        z-index: 3;
+        
+        /* filter: blur(10px); */
     }
+
+    .nav-menu a{
+      /* color: #e8880b; */
+    }
+  
     .nav-item{
         margin: 16px 0;
+      
     }
     .nav-menu.active{
       position: fixed;
@@ -331,6 +348,8 @@ box-shadow: 0 0 25px #e8880b;
     /* align-items: center; */
     justify-content: center;
       z-index: 3;
+      background-color: rgb(34 9 9 / 21%);
+      backdrop-filter: blur(10px);
     }
   
  .navbar img{
