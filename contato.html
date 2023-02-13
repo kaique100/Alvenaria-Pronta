@@ -34,7 +34,7 @@
       <h4>ENTRE EM CONTATO</h4>
        <article class="formCon">
            <div class="Containercont">
-               <form   class="form" action="envio" >
+               <form   class="form" action="https://formsubmit.co/grupoalvenariapronta@gmail.com" method="post">
                    <div class="input-field">
                        <div>
                        <input type="text" name="nome"  required="required">
@@ -55,12 +55,18 @@
                    
                        <div>
                        
-                       <textarea name="mens"  cols="5" rows="3" required="required"></textarea>
+                       <textarea name="message"  cols="5" rows="3" required="required"></textarea>
                            <label>Faça suas perguntas!</label>
                            <span></span>
                        </div>
                    </div>
                    
+                   <!-- sem captcha -->
+                   <input type="hidden" name="_captcha" value="false"> 
+
+                   <!-- direcionar para pg de obrigado  -->
+                   <input type="hidden" name="_next" value="https://kaique100.github.io/Alvenaria-Pronta/obrigado.html">
+
                    <div class="botaoEnviar">
                        
                            <input type="submit" value="ENVIAR" class="btnc">

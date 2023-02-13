@@ -102,7 +102,7 @@ body{
      width: 100%;
      outline: none;
 }
-.input-field textarea[name="mens"]{
+.input-field textarea[name="message"]{
     position: absolute;
     background: transparent;
     border: none;
@@ -200,8 +200,8 @@ body{
     /* background: #DED5D9; */
     padding: 2px 6px;
 }
-.input-field textarea[name="mens"]:focus + label,
-.input-field textarea[name="mens"]:valid + label
+.input-field textarea[name="message"]:focus + label,
+.input-field textarea[name="message"]:valid + label
 
 {
     transform: translateY(-35px);
@@ -276,8 +276,8 @@ body{
     transform-origin: right;
     transition: transform 0.5s ease-in-out;
 }
-.input-field textarea[name="mens"]:focus ~ span:before,
-.input-field textarea[name="mens"]:valid ~ span:before
+.input-field textarea[name="message"]:focus ~ span:before,
+.input-field textarea[name="message"]:valid ~ span:before
 {
     
     transform: scaleX(1);
