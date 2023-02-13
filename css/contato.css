@@ -1,5 +1,16 @@
 
 /* inicio pagina contato */
+body{
+    background-color: transparent;
+    background-image: linear-gradient(100deg, #000000 4%, rgba(242, 41, 91, 0) 100%), url("https://cdn.pixabay.com/photo/2021/09/05/06/25/floor-plan-6598957_960_720.jpg");
+    opacity: 0.84;
+    background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  /* padding: 9% 0%; */
+    color: #fff;
+}
+
 .imgCon{
     text-align: initial;
     text-align: -webkit-center;
@@ -8,8 +19,8 @@
 .imgContato {
     
     justify-content: center;
-    margin-top: 20px;
-    padding: 20px;
+    margin-top: 20%;
+    /* padding: 20px; */
     /* justify-content: space-around; */
     /* position: absolute; */
 }
@@ -31,8 +42,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+    margin: 10%;    
     box-sizing: border-box;
     outline: none;
     font-family: 'Poppins', sans-serif;
@@ -345,7 +355,7 @@
     position: relative;
     width: 500px;
     padding: 40px;
-    background: #fff;
+    /* background: #fff; */
     opacity: 0.9;
     /* margin-top: -299px; */
     margin-top: 10px;
