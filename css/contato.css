@@ -1,0 +1,377 @@
+
+/* inicio pagina contato */
+body{
+    /* background-color: transparent; */
+    background-image: linear-gradient(100deg, #000000 4%, rgba(242, 41, 91, 0) 100%), url("https://images.pexels.com/photos/425047/pexels-photo-425047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    /* opacity: 0.84; */
+    background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  /* padding: 9% 0%; */
+    color: #fff;
+}
+
+.imgCon{
+    text-align: initial;
+    text-align: -webkit-center;
+
+}
+
+.imgContato {
+    
+    justify-content: center;
+    margin-top: 20%;
+    /* padding: 20px; */
+    /* justify-content: space-around; */
+    /* position: absolute; */
+}
+.imgCon img{
+    width: 430px;
+    height: 215px;
+    position: relative;
+    
+    
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+    
+}
+.formCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;    
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    /* background: #111 */
+}
+.formCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    /* background: #111 */
+}
+.box-shadow-demoo {
+    display: block !important  ;
+    width: 300px;
+    height: 300px !important;
+    
+    background: #fff;
+    font-size:16px;
+    padding: 36px 30px 0;
+    position: relative;
+    margin-top: -146px;
+    text-align: justify;
+    opacity: 0.9;
+    
+
+}
+.imgCon h4{
+    TEXT-ALIGN: initial;
+
+}
+.imgContato h4{
+    text-align: -webkit-center;
+    
+    font-size: 24px;
+    color: #E8880B;
+}
+.input-field{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    margin: 0 0 35px 0;
+    outline: none;
+}
+.input-field input[type="text"]{
+    position: absolute;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    font-size: 16px;
+     color: #000;
+     width: 100%;
+     outline: none;
+}
+.input-field textarea[name="message"]{
+    position: absolute;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    font-size: 16px;
+     color: #000;
+     width: 100%;
+     outline: none;
+}
+.input-field textarea[name="mensCli"]{
+    position: absolute;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    font-size: 16px;
+     color: #0000;
+     width: 100%;
+     outline: none;
+}
+.input-field input[type="email"]{
+    position: absolute;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    font-size: 16px;
+     color: #000;
+     width: 100%;
+     outline: none;
+}
+.input-field input[type="password"]{
+    position: absolute;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    font-size: 16px;
+     color: #000;
+     width: 100%;
+     outline: none;
+}
+.input-field input[type="tel"]{
+    position: absolute;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    font-size: 16px;
+     color: #000;
+     width: 100%;
+     outline: none;
+}
+.input-field label{
+    position: absolute;
+    top: 0;    
+    left: 0;
+    color: #E8880B;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.input-field input[type="text"]:focus + label,
+.input-field input[type="text"]:valid + label
+
+{
+    transform: translateY(-35px);
+    font-size: 14px;
+    color: #E8880B;
+    /* background: #DED5D9; */
+    padding: 2px 6px;
+}
+.input-field input[type="tel"]:focus + label,
+.input-field input[type="tel"]:valid + label
+
+{
+    transform: translateY(-35px);
+    font-size: 14px;
+    color: #E8880B;
+    /* background: #DED5D9; */
+    padding: 2px 6px;
+}
+.input-field input[type="email"]:focus + label,
+.input-field input[type="email"]:valid + label
+
+{
+    transform: translateY(-35px);
+    font-size: 14px;
+    color: #E8880B;
+    /* background: #DED5D9; */
+    padding: 2px 6px;
+}
+.input-field input[type="password"]:focus + label,
+.input-field input[type="password"]:valid + label
+
+{
+    transform: translateY(-35px);
+    font-size: 14px;
+    color: #E8880B;
+    /* background: #DED5D9; */
+    padding: 2px 6px;
+}
+.input-field textarea[name="message"]:focus + label,
+.input-field textarea[name="message"]:valid + label
+
+{
+    transform: translateY(-35px);
+    font-size: 14px;
+    color: #E8880B;
+    /* background: #DED5D9; */
+    padding: 2px 6px;
+}
+.input-field textarea[name="mensCli"]:focus + label,
+.input-field textarea[name="mensCli"]:valid + label
+
+{
+    transform: translateY(-35px);
+    font-size: 14px;
+    color: #E8880B;
+    /* background: #DED5D9; */
+    padding: 2px 6px;
+}
+.input-field span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    background: #E8880B;
+    width: 100%;
+    height: 2PX;
+}
+.input-field span:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #E8880B;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+
+
+}
+
+.input-field input[type="text"]:focus ~ span:before,
+.input-field input[type="text"]:valid ~ span:before
+{
+    
+    transform: scaleX(1);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+}
+.input-field input[type="tel"]:focus ~ span:before,
+.input-field input[type="tel"]:valid ~ span:before
+{
+    
+    transform: scaleX(1);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+}
+.input-field input[type="email"]:focus ~ span:before,
+.input-field input[type="email"]:valid ~ span:before
+{
+    
+    transform: scaleX(1);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+}
+.input-field input[type="password"]:focus ~ span:before,
+.input-field input[type="password"]:valid ~ span:before
+{
+    
+    transform: scaleX(1);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+}
+.input-field textarea[name="message"]:focus ~ span:before,
+.input-field textarea[name="message"]:valid ~ span:before
+{
+    
+    transform: scaleX(1);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+}
+.input-field textarea[name="mensCli"]:focus ~ span:before,
+.input-field textarea[name="mensCli"]:valid ~ span:before
+{
+    
+    transform: scaleX(1);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+}
+.btn{
+    margin-top: 20px;
+    border: none;
+    box-shadow: none;
+    padding: 10px 25px;
+    background: transparent;
+    color: #E8880B;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #E8880B;
+    border-radius: 20px;
+    margin: 10px;
+}
+.btnx{
+    margin-top: 20px;
+    border: none;
+    box-shadow: none;
+    /* padding: 10px 25px; */
+    background: transparent;
+    color: #E8880B;
+    font-size: 16px;
+    cursor: pointer;
+    /* border: 1px solid #E8880B; */
+    border-radius: 20px;
+    margin: 10px;
+}
+.btn:hover{
+    background: #E8880B;
+    color: #fff;
+}
+
+
+.btnc{margin-top: 20px;
+    border: none;
+    box-shadow: none;
+    padding: 10px 25px;
+    background: transparent;
+    color: #E8880B;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #E8880B;
+    border-radius: 20px;
+}
+.btnc:hover{
+    background: #fff;
+    color: #E8880B;
+}
+.Container{
+    margin-top: -86px;
+    position: relative;
+    width: 500px;
+    padding: 40px;
+    background: #fff;
+    opacity: 0.9;
+    /* margin-top: -299px; */
+    margin-top: 10px;
+    Margin: -27px;
+    box-shadow: 0 0 25px #E8880B;
+}
+.Containercont{
+    margin-top: -86px;
+    position: relative;
+    width: 500px;
+    padding: 40px;
+    background: #fff;
+    opacity: 0.9;
+    /* margin-top: -299px; */
+    margin-top: 10px;
+    /* Margin: -27px; */
+    box-shadow: 0 0 25px #E8880B;
+}
+
+
+/* fim pagina contato */
+
+@media (max-width:768px){
+
+    .imgContato {
+    
+        margin-top: 40%;
+        
+    }
+}
