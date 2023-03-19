@@ -15,6 +15,7 @@ html, body{
 }
 body{
   display: flex;
+  font-family: Arial, Helvetica, sans-serif;
   flex-direction: column;
 }
 body::-webkit-scrollbar {
@@ -162,6 +163,34 @@ a{
   box-shadow: 0 0 25px #3d4149;
 }
 
+
+.falandoSistema {
+  margin: 4% 5% 2% 5%;
+    padding: 0.2% 0.2% 0.2% 0%;
+    /* display: block; */
+}
+
+
+
+.falandoSistema h2{
+    margin: 0 0 4vh 0;
+    color: #E8880B;
+}
+
+.falandoSistema p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.falandoSistema .blocos div{
+  /* display: flex; */
+  display: inline-block;
+}
+
+.falandoSistema .blocos div img{
+  /* display: flex; */
+  width: 99%;
+}
 .tituloProblemas{
     font-size: 1rem;
 
